@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T16:13:29 IST" name="Default suite" finished-at="2025-09-24T16:13:36 IST" duration-ms="7149">
+  <suite started-at="2025-10-30T18:39:56 IST" name="Suite" finished-at="2025-10-30T18:40:55 IST" duration-ms="59070">
     <groups>
     </groups>
-    <test started-at="2025-09-24T16:13:29 IST" name="Default test" finished-at="2025-09-24T16:13:36 IST" duration-ms="7149">
-      <class name="com.parabank.TestCases.RegistrationPageValidation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.parabank.TestCases.RegistrationPageValidation@4f83df68]" started-at="2025-09-24T16:13:29 IST" name="setUp" finished-at="2025-09-24T16:13:34 IST" duration-ms="5402" status="PASS">
+    <test started-at="2025-10-30T18:39:56 IST" name="ChromeTest" finished-at="2025-10-30T18:40:45 IST" duration-ms="49560">
+      <class name="SeliniumGrid.ParallelTest">
+        <test-method signature="crossBrowserTesting(java.lang.String)[pri:0, instance:SeliniumGrid.ParallelTest@12468a38]" started-at="2025-10-30T18:39:56 IST" name="crossBrowserTesting" finished-at="2025-10-30T18:40:45 IST" duration-ms="49117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validateRegsitrationPage()[pri:0, instance:com.parabank.TestCases.RegistrationPageValidation@4f83df68]" started-at="2025-09-24T16:13:34 IST" name="validateRegsitrationPage" finished-at="2025-09-24T16:13:36 IST" duration-ms="1701" status="PASS">
+        </test-method> <!-- crossBrowserTesting -->
+      </class> <!-- SeliniumGrid.ParallelTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-10-30T18:39:56 IST" name="FirefoxTest" finished-at="2025-10-30T18:40:50 IST" duration-ms="54562">
+      <class name="SeliniumGrid.ParallelTest">
+        <test-method signature="crossBrowserTesting(java.lang.String)[pri:0, instance:SeliniumGrid.ParallelTest@48f2bd5b]" started-at="2025-10-30T18:39:56 IST" name="crossBrowserTesting" finished-at="2025-10-30T18:40:50 IST" duration-ms="54449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateRegsitrationPage -->
-      </class> <!-- com.parabank.TestCases.RegistrationPageValidation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- crossBrowserTesting -->
+      </class> <!-- SeliniumGrid.ParallelTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2025-10-30T18:39:56 IST" name="EdgeTest" finished-at="2025-10-30T18:40:55 IST" duration-ms="59069">
+      <class name="SeliniumGrid.ParallelTest">
+        <test-method signature="crossBrowserTesting(java.lang.String)[pri:0, instance:SeliniumGrid.ParallelTest@1aafa419]" started-at="2025-10-30T18:39:56 IST" name="crossBrowserTesting" finished-at="2025-10-30T18:40:55 IST" duration-ms="58959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowserTesting -->
+      </class> <!-- SeliniumGrid.ParallelTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
