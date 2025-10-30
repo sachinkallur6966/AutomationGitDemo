@@ -12,6 +12,7 @@ public class ScreenShotUtility {
 	public static void getScreenShot(WebDriver driver)
 	
 	{
+		// I Dont know whats is wrong with this file
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File temp=ts.getScreenshotAs(OutputType.FILE);
 		File dest = new File(System.getProperty("user.dir") + "\\ScreenShot\\Test" + System.currentTimeMillis() + ".png");
